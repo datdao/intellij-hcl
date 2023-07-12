@@ -19,3 +19,5 @@ a = "${true?:true}" // OK
 
 // Variable
 a = "${var.count ? 1 : 0}"
+
+variable count {type = bool}

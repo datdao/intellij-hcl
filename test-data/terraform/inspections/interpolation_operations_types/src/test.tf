@@ -10,3 +10,6 @@ a = "${"x" && true}" // BAD
 a = "${!!true}" // OK
 a = "${false < var.int}" // BAD (first)
 a = "${var.bool || 11}" // BAD (second)
+
+variable bool {type = bool}
+variable int {type = number}

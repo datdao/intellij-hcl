@@ -1,4 +1,4 @@
 HCLFile: Comment_Single.hcl
-  PsiComment(line_comment)('# Hello')
+  PsiComment(line_hash_comment)('# Hello')
   PsiWhiteSpace('\n')
-  PsiComment(line_comment)('// World')
+  PsiComment(line_c_comment)('// World')

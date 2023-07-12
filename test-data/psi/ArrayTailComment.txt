@@ -16,6 +16,6 @@ HCLFile: ArrayTailComment.hcl
         PsiElement(DOUBLE_QUOTED_STRING)('"2"')
       PsiElement(,)(',')
       PsiWhiteSpace(' ')
-      PsiComment(line_comment)('# comment')
+      PsiComment(line_hash_comment)('# comment')
       PsiWhiteSpace('\n')
       PsiElement(])(']')

@@ -9,17 +9,10 @@
   </problem>
   <problem>
     <file>terraform.tfvars</file>
-    <line>16</line>
-    <module>0</module>
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect .tfvars content</problem_class>
-    <description>Property value should be either number, double quoted string, list or object</description>
-  </problem>
-  <problem>
-    <file>terraform.tfvars</file>
     <line>15</line>
     <module>0</module>
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect .tfvars content</problem_class>
-    <description>Incorrect variable value type, expected simple value (string or number)</description>
+    <problem_class severity="ERROR" attribute_key="WRONG_REFERENCES_ATTRIBUTES">Incorrect .tfvars content</problem_class>
+    <description>Argument names must not be quoted</description>
   </problem>
   <problem>
     <file>terraform.tfvars</file>
@@ -30,24 +23,31 @@
   </problem>
   <problem>
     <file>terraform.tfvars</file>
+    <line>16</line>
+    <module>0</module>
+    <problem_class severity="ERROR" attribute_key="WRONG_REFERENCES_ATTRIBUTES">Incorrect .tfvars content</problem_class>
+    <description>Argument names must not be quoted</description>
+  </problem>
+  <problem>
+    <file>terraform.tfvars</file>
     <line>18</line>
     <module>0</module>
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect .tfvars content</problem_class>
-    <description>Incorrect variable value type, expected 'list'</description>
+    <description>Incorrect variable value type. Expected: 'list'</description>
   </problem>
   <problem>
     <file>terraform.tfvars</file>
     <line>19</line>
     <module>0</module>
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect .tfvars content</problem_class>
-    <description>Incorrect variable value type, expected 'list'</description>
+    <description>Incorrect variable value type. Expected: 'list'</description>
   </problem>
   <problem>
     <file>terraform.tfvars</file>
-    <line>23</line>
+    <line>22</line>
     <module>0</module>
-    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect .tfvars content</problem_class>
-    <description>Property value should be either number, double quoted string, list or object</description>
+    <problem_class severity="ERROR" attribute_key="WRONG_REFERENCES_ATTRIBUTES">Incorrect .tfvars content</problem_class>
+    <description>Argument names must not be quoted</description>
   </problem>
 </problems>
 

@@ -19,6 +19,13 @@
     <line>6</line>
     <module>0</module>
     <problem_class>Unresolved reference</problem_class>
+    <description>Unresolved reference *</description>
+  </problem>
+  <problem>
+    <file>test.tf</file>
+    <line>6</line>
+    <module>0</module>
+    <problem_class>Unresolved reference</problem_class>
     <description>Unresolved reference abracadabra</description>
   </problem>
 </problems>

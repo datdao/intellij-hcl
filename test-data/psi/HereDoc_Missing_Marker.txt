@@ -4,11 +4,11 @@ HCLFile: HereDoc_Missing_Marker.hcl
       PsiElement(ID)('foo')
     PsiWhiteSpace(' ')
     PsiElement(=)('=')
+    PsiErrorElement:<boolean>, <expression>, <heredoc>, <null>, <number>, <string literal> or HD_START expected, got '<<'
+      <empty list>
   PsiWhiteSpace(' ')
   PsiElement(HD_START)('<<')
-  PsiErrorElement:<heredoc anchor> expected, got '
-'
-    PsiElement(BAD_CHARACTER)('\n')
+  PsiElement(BAD_CHARACTER)('\n')
   PsiElement(ID)('bar')
   PsiWhiteSpace('\n')
   PsiElement(ID)('baz')

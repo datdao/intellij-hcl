@@ -2,5 +2,5 @@ HCLFile: Incomplete_Block.hcl
   PsiElement(ID)('resource')
   PsiWhiteSpace(' ')
   PsiElement(DOUBLE_QUOTED_STRING)('"aws"')
-  PsiErrorElement:<identifier>, <string literal> or '{' expected, unexpected end of file
+  PsiErrorElement:<boolean>, <identifier>, <null>, <string literal> or '{' expected
     <empty list>

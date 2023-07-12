@@ -17,3 +17,16 @@ resource "atlas_artifact" "mesos-slave" {
   type    = "aws.ami"
   version = "${var.atlas_artifact_version.master}"
 }
+
+variable "network" {
+  type = object({
+    subnets = list(string)
+  })
+}
+module sub {
+  source = "./sub"
+  subnets = var.network.subnets
+}
+output "from-module" {
+  value = module.sub.sn
+}

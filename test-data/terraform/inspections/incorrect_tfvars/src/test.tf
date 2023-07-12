@@ -17,3 +17,8 @@ variable "string" {
 variable "list" {
   type = "list"
 }
+variable "network" {
+  type = object({
+    subnets = list(string)
+  })
+}

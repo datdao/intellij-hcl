@@ -4,6 +4,9 @@
     <bytecodeTargetLevel>
       <module name="intellij-hcl_main" target="1.8" />
       <module name="intellij-hcl_test" target="1.8" />
+      <module name="Workspace.intellij-hcl" target="1.8" />
+      <module name="Workspace.intellij-hcl.main" target="1.8" />
+      <module name="Workspace.intellij-hcl.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

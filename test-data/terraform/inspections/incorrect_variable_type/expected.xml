@@ -49,5 +49,12 @@
     <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect variable type</problem_class>
     <description>Incorrect variable type, expected string, list or map</description>
   </problem>
+  <problem>
+    <file>test.tf</file>
+    <line>57</line>
+    <module>0</module>
+    <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Incorrect variable type</problem_class>
+    <description>The map type constructor requires one argument specifying the element type</description>
+  </problem>
 </problems>
 
